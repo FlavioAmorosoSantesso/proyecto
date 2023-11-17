@@ -1,6 +1,6 @@
 // Función para alerta con saludo (después de un tiempo)
 function bienvenida() {
-    alert('¡Hola, soy el Mago Richard, gracias visitar mi página web!');
+    alert('¡Hola, soy el Mago Richard, gracias por visitar mi página web!');
   }
   //Tiempo de respuesta en 2.5em
   setTimeout(bienvenida, 2500);
