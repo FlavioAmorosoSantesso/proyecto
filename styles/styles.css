@@ -1,0 +1,55 @@
+/*Estilo para el ícono de modo oscuro/claro*/
+#label {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 1.5em;
+    color: white;
+}
+/*ocultamos con none el botón de deslizado del modo oscuro/claro*/
+#toggle {
+    display: none;
+}
+/*Estilo de modo oscuro para la página*/
+.oscuro {
+    background-color: rgb(17, 18, 65);
+    color: white;
+    transition: all 2.5s ease;
+}
+/*Estilo para el navbar*/
+.responsive {
+	font-family:"Gothic A1", sans-serif !important;
+	display:flex;
+    justify-content:center;
+}
+/*Estilo para el contenedor principal, en el cuál se encuentra el row*/
+.container-fluid {
+	text-align:center;
+	font-family:"Gothic A1";
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*Estilo para la fila que alberga sus respectivas columnas*/
+.row {
+	text-align:center;
+	color: rgb(34, 125, 199);
+	background-color: rgb(17, 18, 65);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*Estilo para el formulario*/
+.form {
+	display:block;
+	width: 100%;
+}
+/*Estilo para el pie de página*/
+.footer {
+	text-align: center; 
+	font-family:"Gothic A1";
+	color:rgb(34, 125, 199);
+	background-color: rgb(17, 18, 65);
+	display: flex;
+    justify-content: center;
+}
